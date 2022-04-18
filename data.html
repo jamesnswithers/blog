@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+$.getJSON('{{ "/data/set.json" | prepend: site.baseurl }}', function(data) {
+  console.log(data);
+  const chartData = {
+    labels: data.labels,
+    datasets: [{
+      label: 'My First dataset',
+      backgroundColor: 'rgb(255, 99, 132)',
+      borderColor: 'rgb(255, 99, 132)',
+      data: data.data
+    }]
+  };
+
+  const config = {
+    type: 'line',
+    data: chartData,
+    options: {}
+  };
+  
+  const myChart = new Chart(
+    document.getElementById('myChart'),
+    config
+  );
+});
+</script>
