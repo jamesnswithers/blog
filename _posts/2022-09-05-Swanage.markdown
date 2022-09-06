@@ -5,4 +5,4 @@ date:   2022-09-06 09:20:00 +0100
 categories: # jekyll update
 ---
 
-![Swanage Route](/assets/img/swanage-walk.png)
+![Swanage Route]({{ site.baseurl }}/assets/img/swanage-walk.png)
