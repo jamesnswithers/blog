@@ -2,7 +2,13 @@
 layout: post
 title:  "Swanage Walk"
 date:   2022-09-06 09:20:00 +0100
-categories: # jekyll update
+tags: jurassic-coast route # jekyll update
 ---
+
+# Route
+
+Details:
+Distance `11km`
+Elevation: `+/- 100m`
 
 ![Swanage Route]({{ site.baseurl }}/assets/img/swanage-walk.png)
