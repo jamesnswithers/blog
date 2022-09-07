@@ -26,6 +26,7 @@ Finish: `Winspit Quarry`
 <a alt="{{ page.route | capitalize }} Route" data-lightbox="image-1" href="/hiking-dashboard/assets/img/{{ page.route }}-route.png">
     ![{{ page.route | capitalize }} Route]({{ site.baseurl }}/assets/img/{{ page.route }}-route.png)
 </a>
+[komoot](https://www.komoot.com/plan/tour/d01AwRLHP_iHtU=GQf4EU6FCxg756pDjvuWoi1B-5lxns-ZAMTfwXDEcowAM84SVM_-7xxvpiVR-oN-ADQRQXP2_XAA25aNaHX4lwAWk2FrJuqiABaTXAA=/@50.5973639,-1.9912042,13.000z)
 
 Checkpoints:<br>
 <ol>
