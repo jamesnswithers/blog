@@ -1,14 +1,59 @@
 ---
 layout: post
-title:  "Swanage Walk"
+title:  "Swanage"
 date:   2022-09-06 09:20:00 +0100
-tags: jurassic-coast route # jekyll update
+author: James
+tags:
+- "jurassic coast"
+- swanage
+- route
+- uk
+
+route: swanage
+distance: 10.75 km
+grade: Intermediate
+dogFriendliness: Friendly
 ---
 
-# Route
+## Route
 
-Details:
-Distance `11km`
-Elevation: `+/- 100m`
+Distance: `{{ page.distance }}`<br>
+Elevation: `±140m`<br>
+Grade: `{{ page.grade }}`<br>
+Start: `Swanage Beach Viewpoint`<br>
+Finish: `Winspit Quarry`
 
-![Swanage Route]({{ site.baseurl }}/assets/img/swanage-walk.png)
+<a alt="{{ page.route | capitalize }} Route" data-lightbox="image-1" href="/hiking-dashboard/assets/img/{{ page.route }}-route.png">
+    ![{{ page.route | capitalize }} Route]({{ site.baseurl }}/assets/img/{{ page.route }}-route.png)
+</a>
+
+Checkpoints:<br>
+<ol>
+    <li>Beach (<i class="fa fa-coffee" aria-hidden="true"></i>
+    <i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
+    <li>Peveril Point (<i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
+    <li>The Great Globe @ Durlston Castle (<i class="fa fa-coffee" aria-hidden="true"></i>
+    <i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i>)</li>
+    <li>Anvil Point Lighthouse</li>
+    <li>The Promenade</li>
+    <li>Dancing Ledge</li>
+    <li>Cannon</li>
+    <li>Seacombe Cliff</li>
+</ol>
+
+## Dog Walking
+
+Dog Friendliness: `{{ page.dogFriendliness }}`
+
+I found this route to be very dog friendly, with lots of opportunity for off-leading and a few areas of road, shared walkway and grazing animals to be wary of.
+
+From the beginning of the walk (A) to Peveril Point (2) you will be in Swanage on road. Peveril Point (2) to Durlston Castle (3) sees you go out onto the cliff edge where you might feel more comfortable having your dog on leash; you may end up back on the road soon enough depending on the route you take.
+
+Durlston Castle (3) to the Anvil Point Lighthouse (4) is mainly shared walkway. This is wide enough for people to walk by however, maybe not be good for off-leading considering the proximity of the cliff edge behind a low built wall and the number of walkers.
+
+From the lighthouse off-leading becomes a lot easier, with wide and open tracks and good visibility on the route ahead. Be wary of the cliff edge as this is not fenced for a fair distance however, the track is set back a comfortable amount.
+
+Between The Promenade (5) and Dancing Ledge (6) there was a fenced field with grazing cattle; You may have to go through this field if you do not stay on the closest path to the cliff edge. 
+
+Whilst there were signs on the ground that animals had been in the area, Seacombe Cliff (8) was the first field I went back on-lead due to grazing sheep. The field was small and I was able to off-lead again going into the next field and until the end (B)
+
