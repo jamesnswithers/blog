@@ -1,2 +1,1 @@
-# hiking-dashboard
- 
+# blog
