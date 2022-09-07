@@ -29,12 +29,14 @@ Finish: `Winspit Quarry`
 <a alt="{{ page.route | capitalize }} Route" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/{{ page.route }}-route.png">
     ![{{ page.route | capitalize }} Route]({{ site.baseurl }}/assets/img/{{ page.route }}-route.png)
 </a>
-[komoot](https://www.komoot.com/plan/tour/d01AwRLHP_iHtU=GQf4EU6FCxg756pDjvuWoi1B-5lxns-ZAMTfwXDEcowAM84SVM_-7xxvpiVR-oN-ADQRQXP2_XAA25aNaHX4lwAWk2FrJuqiABaTXAA=/@50.5973639,-1.9912042,13.000z)
+[komoot](https://www.komoot.com/plan/tour/d01AwRLHP_iHtU=GQf4EU6FCxg756pDjvuWoi1B-5lxns-ZAMTfwXDEcowAM84SVM_-7xxvpiVR-oN-ADQRQXP2_XAA25aNaHX4lwAWk2FrJuqiABaTXAA=/@50.5973639,-1.9912042,13.000z){:target="_blank"}
 
 <hr />
 
 ## Checkpoints
 <ol>
+    <li>Swanage Beach Viewpoint (<i class="fa fa-coffee" aria-hidden="true"></i>
+    <i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
     <li>Beach (<i class="fa fa-coffee" aria-hidden="true"></i>
     <i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
     <li>Peveril Point (<i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
@@ -45,6 +47,7 @@ Finish: `Winspit Quarry`
     <li>Dancing Ledge</li>
     <li>Cannon</li>
     <li>Seacombe Cliff</li>
+    <li>Winspit Quarry</li>
 </ol>
 
 <hr />
