@@ -13,16 +13,17 @@ route: swanage
 distance: 10.75 km
 grade: Intermediate
 dogFriendliness: Friendly
-categories:
-- hiking
+category: hiking
 ---
+
+<hr />
 
 ## Route
 
-Distance: `{{ page.distance }}`<br>
-Elevation: `±140m`<br>
-Grade: `{{ page.grade }}`<br>
-Start: `Swanage Beach Viewpoint`<br>
+Distance: `{{ page.distance }}`<br />
+Elevation: `±140m`<br />
+Grade: `{{ page.grade }}`<br />
+Start: `Swanage Beach Viewpoint`<br />
 Finish: `Winspit Quarry`
 
 <a alt="{{ page.route | capitalize }} Route" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/{{ page.route }}-route.png">
@@ -30,7 +31,9 @@ Finish: `Winspit Quarry`
 </a>
 [komoot](https://www.komoot.com/plan/tour/d01AwRLHP_iHtU=GQf4EU6FCxg756pDjvuWoi1B-5lxns-ZAMTfwXDEcowAM84SVM_-7xxvpiVR-oN-ADQRQXP2_XAA25aNaHX4lwAWk2FrJuqiABaTXAA=/@50.5973639,-1.9912042,13.000z)
 
-Checkpoints:<br>
+<hr />
+
+## Checkpoints
 <ol>
     <li>Beach (<i class="fa fa-coffee" aria-hidden="true"></i>
     <i class="fa fa-female" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i> nearby)</li>
@@ -43,6 +46,8 @@ Checkpoints:<br>
     <li>Cannon</li>
     <li>Seacombe Cliff</li>
 </ol>
+
+<hr />
 
 ## Dog Walking
 
@@ -60,3 +65,4 @@ Between The Promenade (5) and Dancing Ledge (6) there was a fenced field with gr
 
 Whilst there were signs on the ground that animals had been in the area, Seacombe Cliff (8) was the first field I went back on-lead due to grazing sheep. The field was small and I was able to off-lead again going into the next field and until the end (B)
 
+<hr />
