@@ -24,7 +24,7 @@ Whilst it's trivial to edit this wiki via the user interface, you might want to 
 
 The [Az DevOps CLI](https://docs.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest){:target="_blank"} has all the commands you'll need to check and update the wiki. [This page](https://docs.microsoft.com/en-us/cli/azure/devops/wiki?view=azure-cli-latest){:target="_blank"} lists the commands available that interact with the wikis.
 
-Running `az devops wiki list` using the System Access Token (with only default permissions) will return a list of available wikis. As can be seen below in a simple Azure pipeline script, an example project `UpdateWikiExample` has one wiki available called `UpdateWikiExample .wiki` of type `projectWiki`.
+Running `az devops wiki list` using the System Access Token (with only default permissions) will return a list of available wikis. As can be seen below in a simple Azure pipeline script, an example project `UpdateWikiExample` has one wiki available called `UpdateWikiExample.wiki` of type `projectWiki`.
 
 ~~~ yaml
 trigger: none
