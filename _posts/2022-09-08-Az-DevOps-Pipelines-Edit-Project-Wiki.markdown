@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Azure DevOps Pipelines; Editing Provisioned Wiki"
+title:  "Azure DevOps Pipelines; Editing Project Wiki"
 date:   2022-09-08 16:00:00 +0100
 author: James
 tags:
@@ -66,11 +66,13 @@ steps:
 Retrieving a list of wikis is one thing, but we want to be able to update the project wiki.
 
 Expanding on the pipeline above we could add a command to create a new page.
+
 ~~~
 az devops wiki page create --path NewPage --wiki "UpdateWikiExample.wiki" --comment "added a new page" --content "# New Wiki Page Created!"
 ~~~
 
 However, upon running this pipeline now we get the error.
+
 ~~~
 ERROR: TF401019: The Git repository with name or identifier 9f66a54b-56e6-4597-b461-e80ab53713a2 does not exist or you do not have permissions for the operation you are attempting.
 ~~~
@@ -95,8 +97,8 @@ ERROR: The wiki page operation failed with message : User does not have write pe
 
 Fix the project's build service account permissions on the wiki by switching the `Contribute` setting to `Allow`.
 
-<a alt="Wiki Permissions" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Provisioned-Wiki-1.png">
-    ![Wiki Permissions]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Provisioned-Wiki-1.png)
+<a alt="Wiki Permissions" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-1.png">
+    ![Wiki Permissions]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-1.png)
 </a>
 
 ## TL;DR
