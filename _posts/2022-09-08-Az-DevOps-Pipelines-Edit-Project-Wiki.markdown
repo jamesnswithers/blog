@@ -25,6 +25,8 @@ If you have provisioned a project wiki in an Azure DevOps then you may have noti
 
 Whilst it's trivial to edit this wiki via the user interface, you might want to programmatically update it via an Azure DevOps pipeline and for that you will need a specific setup. This setup is discussed below, and whilst it is relatively simple, it is seemingly undocumented.
 
+<hr />
+
 ## Azure DevOps CLI
 
 The [Az DevOps CLI](https://docs.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest){:target="_blank"} has all the commands you'll need to check and update the wiki. [This page](https://docs.microsoft.com/en-us/cli/azure/devops/wiki?view=azure-cli-latest){:target="_blank"} lists the commands available that interact with the wikis.
@@ -66,6 +68,8 @@ steps:
 ]
 ~~~
 
+<hr />
+
 ## Wiki Edits
 
 Retrieving a list of wikis is one thing, but we want to be able to update the project wiki.
@@ -105,6 +109,8 @@ Fix the project's build service account permissions on the wiki by switching the
 <a alt="Wiki Permissions" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-1.png">
     ![Wiki Permissions]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-1.png)
 </a>
+
+<hr />
 
 ## TL;DR
 
