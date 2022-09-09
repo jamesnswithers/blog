@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Azure DevOps Pipelines; Editing Project Wiki"
-date:   2022-09-08 16:00:00 +0100
+date:   2022-09-09 14:30:00 +0100
 author: James
 tags:
 - azure
