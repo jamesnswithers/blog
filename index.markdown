@@ -18,9 +18,14 @@ layout: default
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <br />
       <br />
+      {{ post.summary }}
       {% if post.category == 'hiking' %}
       <img src="{{ site.baseurl }}/assets/img/{{ post.route }}-route.png" alt="{{ post.route | capitalize }} Route">
       Distance: <code>{{ post.distance }}</code> | Grade: <code>{{ post.grade }}</code> | Dog: <code>{{ post.dogFriendliness }}</code>
+      {% else if post.category == 'code' %}
+      <br />
+      <br />
+      <img src="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png" alt="Pipeline image">
       {% endif %}
       <br />
       <br />

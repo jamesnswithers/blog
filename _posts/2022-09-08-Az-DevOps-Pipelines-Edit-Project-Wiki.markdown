@@ -10,11 +10,16 @@ tags:
 - "provisioned wiki"
 
 category: code
+summary: "Updating the default Azure DevOps wiki for a project needs a specific setup when wanting to do it from a pipeline."
 ---
 
 <hr />
 
 [TL;DR](#tldr)
+
+<a alt="Pipeline Screenshot" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png">
+    ![Pipeline Screenshot]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png)
+</a>
 
 If you have provisioned a project wiki in an Azure DevOps then you may have noticed that the first wiki you create has no visible git repository supporting it; in fact, you can have the Repos service disabled and this wiki will still work.
 
@@ -104,3 +109,7 @@ Fix the project's build service account permissions on the wiki by switching the
 ## TL;DR
 
 Include the project wiki's (hidden) git repository as a pipeline resource and approve the use of it. Set the `Contribute` access level to `Allow` for the project's service account in the wiki's security settings.
+
+<a alt="Wiki Commit History" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-3.png">
+    ![Wiki Commit History]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-3.png)
+</a>
