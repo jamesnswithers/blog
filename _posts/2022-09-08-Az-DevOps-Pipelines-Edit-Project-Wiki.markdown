@@ -17,7 +17,7 @@ summary: "Updating the default Azure DevOps wiki for a project needs a specific 
 
 [TL;DR](#tldr)
 
-<a alt="Pipeline Screenshot" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png">
+<a alt="Pipeline Screenshot" data-lightbox="image-2" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png">
     ![Pipeline Screenshot]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-2.png)
 </a>
 
@@ -116,6 +116,6 @@ Fix the project's build service account permissions on the wiki by switching the
 
 Include the project wiki's (hidden) git repository as a pipeline resource and approve the use of it. Set the `Contribute` access level to `Allow` for the project's service account in the wiki's security settings.
 
-<a alt="Wiki Commit History" data-lightbox="image-1" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-3.png">
+<a alt="Wiki Commit History" data-lightbox="image-3" href="{{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-3.png">
     ![Wiki Commit History]({{ site.baseurl }}/assets/img/2022-09-08-Az-DevOps-Pipelines-Edit-Project-Wiki-3.png)
 </a>
