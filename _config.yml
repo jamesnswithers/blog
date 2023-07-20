@@ -33,6 +33,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+google_site_verification: amt75tZb4mmYRGm6qsqCtjlni1STIxRHpjrXF7B9VSI
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
